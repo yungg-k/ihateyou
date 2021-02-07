@@ -1,0 +1,297 @@
+html{background-image: black;}
+/*
+css for gooks
+
+welcome to GOOKVISION V2 3.0 
+i love you all! (except u!!)
+
+i said:
+    i am the man in the crawlspace!! 
+
+    kpoh7jxj76A!
+
+*/
+
+
+
+
+
+h3{font-size: 0px;}
+h3::after{content: "❀"; font-size: 11px;}
+
+
+.extended{border:0px;padding:0px;}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+a,b,p,h1,h2,h3,h4,h5,h6{ font-weight: 300 !important;}
+
+.blogs>div>b, .rightHead>b{font-size: 0px !important;}
+
+.rightHead, .box.blurbs>.blogs div:nth-child(1){height:0px !important; width: 0px !important;}
+
+.extended.box{margin:0px;}
+
+
+
+/*
+every element that becomes black with white text
+*/
+
+
+div#header, div#hSub, .rightHead, .boxHead, table#userWall, td.tableRight, td.tableLeft, div.box.comments, textarea#commentInput, .extended.box, div.player.box, .boxInfo, .blog{
+    background: #f3ead342;
+    color: gray !important;
+    border-radius: 12px;
+
+}
+.url, textarea#commentInput, .player, div#header{
+    border: 40px
+}
+
+html{background-image: linear-gradient(to top, white, white);
+
+background-attachment: fixed;
+background-size: cover;
+}
+/* text (this makes no difference in gookvision v2 */
+p, a:not(.blinkYellow){
+    color: black !important;
+}
+
+
+/* uc (not og nor tb!) */
+
+
+/* no avatar */
+#avatar{  height: 0rem;
+width: 0rem;
+}
+
+
+/* under construction bottom image */
+html::before{
+content: "";
+white-space: pre-wrap;
+display: block;
+height: 70px;
+max-width: 95px;
+background-image: url(https://web.archive.org/web/20090803193123/http://hk.geocities.com/sunshinewake/chp11_construction.gif);
+background-size: 100%;
+transform: translate(-19rem, 50rem);
+background-repeat: no-repeat;
+margin: auto;
+}
+
+/* under construction top image */
+body::before{
+content: "";
+white-space: pre-wrap;
+display: block;
+height: 85px;
+width: 369px;
+max-width: 100rem;
+
+background-image: url(https://web.archive.org/web/20090901201750/http://geocities.com/secretvip1/underconstruction_animated_languages.gif);
+background-size: 100%;
+margin: auto;
+transform: translateY(-2rem);
+background-repeat: no-repeat;
+}
+
+
+/* new to csS? */
+
+
+
+/* centering and minimizing top navigation bar */
+
+
+div#header{
+    left: 0;
+    right: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 300 !important;
+
+    color: black;
+    cursor: default;
+    display: block;
+    font-size: 0.9625rem;
+    height: 2.25rem;
+    line-height: 1;
+    padding: 0.5625rem 0.3125rem 0;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    background: transparent;
+}
+
+
+
+
+div#hSub{
+    text-align: center;
+    left: 4rem;
+    right: 0;
+    top: 0.16rem;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    color: #ede7d5;
+    display: block;
+    font-size: 0.879rem;
+    height: 2.25rem;
+    line-height: 1;
+    padding: 0.5625rem 0.3125rem 0;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+    cursor: default;
+    max-width: 608px;
+    margin-right: auto;
+    margin-left: auto;
+    background: transparent;
+}
+
+/* for mobile */
+
+@media (max-width: 950px) {
+                div#hSub {
+                    top: 2.16rem;
+                    position: static;C
+                }
+            }
+@media (max-width: 600px) {
+                div#hSub {
+                    top: 3.16rem;
+                    left: 0rem;
+                    position: static;
+                }
+            }
+@media (max-width: 950px) {
+                span#hUp {
+                    position: unset;
+                }
+            }
+
+
+
+
+/*
+eww!! scuffed ass css!!!!!!! ewww! 
+*/
+
+
+/*player color and visitor counter */
+
+audio{ filter: sepia(120%) saturate(25%) grayscale(33) contrast(100%) invert(15%) ; 
+mix-blend-mode: luminosity;} 
+div.url.box{ background-image: url( https://mvc.squarewave.cloud/cat.png );
+font-size: 0px;
+width: 85px;
+height: 28px;}
+
+div.url.box:hover::after{
+content: "counter by utf-16";
+font-size:11px;
+    position: absolute;
+    margin-left: 91px;
+    margin-top: 14px;
+}
+
+/*should go next 2 display profile image none */ 
+
+.boxInfo { border: 0px; }
+#container > div.topLeft > table > tbody > tr > td:nth-child(1) {display:none;}
+
+
+/* ------- notification symbols ------ */ 
+
+div#header span.blinkGreen { font-size:0px;}
+div#header span.blinkGreen::after {     content: " Ⓕ ";
+    font-size: 14px;
+    text-shadow: 0px 1px 3px black;
+    -webkit-font-smoothing: antialiased; }
+
+div#header span.blinkRed { font-size:0px;}
+div#header span.blinkRed::after {     content: " Ⓜ ";
+    font-size: 14px;
+    text-shadow: 0px 1px 3px black;
+    -webkit-font-smoothing: antialiased; }
+
+div#header span.blinkViolet { font-size:0px;}
+div#header span.blinkViolet::after {     content: " Ⓒ ";
+    font-size: 14px;
+    text-shadow: 0px 1px 3px black;
+    -webkit-font-smoothing: antialiased; }
+
+div#header a.blinkYellow { font-size:0px;}
+div#header a.blinkYellow::after {     content: " Ⓝ ";
+    font-size: 14px;
+    text-shadow: 0px 1px 3px black;
+    -webkit-font-smoothing: antialiased; }
+
+
+
+
+/* global formattng rules */
+
+body {     background: transparent;
+    text-transform: lowercase;}
+
+
+/* reducing img quality */
+img { filter: saturate(0.7);
+border-radius:0px;}
+
+img:hover { filter: saturate(1);}
+/* improve image quality */
+#online > img { image-rendering: initial;}
+
+
+/* this shit dont work */
+div#header::after{     
+box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px); } 
+
+
+
+
+/*animation: rotate hue, drop shadow (glow effect), invert
+global
+
+background-position-x changing to update the background
+*/
+
+
+
+@keyframes hue_rotate_ani {
+  0%   {filter: hue-rotate(45deg)drop-shadow(2px 4px 1px black)invert(1);}
+  13%  {filter: hue-rotate(45deg)drop-shadow(2px 4px 8px black)invert(1);}
+  25%  {filter: hue-rotate(45deg)drop-shadow(2px 4px 36px black)invert(1);}
+  38%  {filter: hue-rotate(45deg)drop-shadow(2px 4px 16px black)invert(1);}
+  50%  {filter: hue-rotate(45deg)drop-shadow(2px 4px 8px black)invert(1);}
+  63%  {filter: hue-rotate(45deg)drop-shadow(2px 4px 1px black)invert(1);}
+  84%  {filter: hue-rotate(45deg)drop-shadow(2px 4px 128px black)invert(1);}
+  88%  {filter: hue-rotate(45deg)drop-shadow(2px 4px 164px black)invert(1);}
+  100% {filter: hue-rotate(45deg)drop-shadow(2px 4px 1px black)invert(1);}
+}
+
+
+html:not(div.box.comments){
+animation-name: hue_rotate_ani;
+animation-duration: 36s;
+animation-iteration-count: infinite;
+}
+
+
+
+/* animate the background? */
+
+/* attempts to optimize this shit page */
+#container > div.topRight > div.box.comments 
