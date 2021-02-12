@@ -1,0 +1,169 @@
+/* stolen form hehpilled */
+body{ background-color: transparent; color: white;} 
+div.boxHead, #container > div.topLeft > div.player.box { background-color: #ffffffaf;
+border-radius: 8px;  } 
+div#hSub a[href*="/?id="], div#hSub a[href*="p?id="],div#hSub a[href*="news"],div#hSub a[href*="music"],div#hSub a[href*="online"],div#hSub a[href*="random"],div#hSub a[href*="list"],div#hSub a[href*="blog"],div#hSub a[href*="search"], div#header a[href*="mailbox"], div#header a[href*="logout"],div#header a[href*="requests"],div#header span.blinkGreen, div#header span.blinkViolet {
+    font-size: 0px;
+    top: 0px;
+    position: fixed;
+    
+}
+div#hSub { font-size: 0px; } 
+div#hSub a[href*="/?id="] {
+    width: 65px;
+    height: 60px;
+    background-image: url(https://web.archive.org/web/20090730203350/http://hk.geocities.com/christydayo/icon_home-doll_holding_wooden_board.gif);
+    left: 0px;
+}
+div#hSub a[href*="p?id="] {
+    width: 141px;
+    height: 47px;
+    background-image: url(https://web.archive.org/web/20090830161050/http://geocities.com/abercrombieceo/friends2.gif);
+    top: 65px;
+}
+div#hSub a[href*="list"] {
+    width: 131px;
+    height: 40px;
+    background-image: url(https://web.archive.org/web/20090831051043/http://geocities.com/ourallinall/images/2afrnd4.gif);
+    top: 216px;
+}
+div#hSub a[href*="random"] {
+    width: 88px;
+    height: 31px;
+    background-image: url(https://web.archive.org/web/20091026184109/http://www.geocities.com/b_gebhart/random.gif);
+    top: 347px;
+}
+div#hSub a[href*="online"] {
+    width: 150px;
+    height: 16px;
+    background-image: url(https://web.archive.org/web/20021111101616/http://geocities.com/1026Online/online.gif);
+    top: 447px;
+}
+div#hSub a[href*="music"]{
+    width: 80px;
+    height: 40px;
+    background-image: url(https://web.archive.org/web/20091024091430/http://www.geocities.com/mivanqua2001/animatedgifs/music_blk.gif);
+    top: 606px;
+}
+div#hSub a[href*="news"]{
+    width: 113px;
+    height: 65px;
+    background-image: url(https://web.archive.org/web/20091027083650/http://geocities.com/cartoonews/news.gif);
+    top: 686px;
+}
+div#hSub a[href*="blog"]{
+    width: 104px;
+    height: 34px;
+    background-image: url(https://web.archive.org/web/20091027131652/http://www.geocities.com/yakidooo/blog.gif);
+    top: 799px;
+}
+div#hSub a[href*="search"]{
+    width: 110px;
+    height: 95px;
+    background-image: url(https://web.archive.org/web/20091027075504/http://geocities.com/ChathamNH/search.gif);
+    top: 903px;
+}
+div#header a[href*="mailbox"]{
+    width: 29px;
+    height: 39px;
+    background-image: url(https://web.archive.org/web/20090730013547/http://de.geocities.com/updatesandmore/mailbox_red.gif);
+    right: 64px;
+}
+ div#header a[href*="logout"]{
+    width: 64px;
+    height: 38px;
+    background-image: url(https://web.archive.org/web/20010623072145/http://www.geocities.com:80/WestHollywood/Park/6656/exitsign.gif);
+    right: 0px;
+}
+div#header a.blinkYellow{
+    width: 249px;
+    height: 67px;
+    top: 103px;
+    position: fixed;
+    background-image: url(https://web.archive.org/web/20090808132027/http://www.geocities.com/ghanie22/friend.gif);
+    right: 9%;
+}
+div#header span.blinkGreen{
+    width: 96px;
+    height: 45px;
+    top: 55px;
+    position: fixed;
+    background-image: url(https://web.archive.org/web/20050207122744/http://www.geocities.com:80/requestmusic247/10nw03c.gif);
+    right: 10%;
+}
+#hUp > a[href*="blog"] > span{
+    width: 120px;
+    height: 60px;
+    top: 170px;
+    position: fixed;
+    background-image: url(https://web.archive.org/web/20091026153005/http://uk.geocities.com/worldtradecoalition@btopenworld.com/darkgrey_blurry_blog.JPG.gif);
+    right: 7%;
+}
+#hUp > a[href*="review"] > span{
+    width: 67px;
+    height: 50px;
+    top: 180px;
+    position: fixed;
+    background-image: url(https://web.archive.org/web/20090821081507/http://geocities.com/tollertwins/Comment.gif);
+    right: 20%;
+}
+#sMsg { font-size: 0px;
+background-image: url(https://web.archive.org/web/20091027003933/http://uk.geocities.com/hugeh111/abettersend.gif);
+width: 183px;
+height: 53px
+}
+#report, #block{ display: none;}
+#add { font-size: 0px;
+background-image: url(https://web.archive.org/web/20091027063356/http://geocities.com/hilda250/ADDME.GIF);
+width: 150px;
+height: 40px
+}
+#block { font-size: 0px;
+background-image: url(https://web.archive.org/web/20090831034811/http://geocities.com/choperjok/stopclr.gif);
+backdrop-filter: invert(1);
+width: 30px;
+height: 30px
+}
+html{background-color: black; background:url(https://web.archive.org/web/20091027015452/http://hk.geocities.com/wingka_phoebe/picture/myself/Wallpaper/010.gif);}
+div#hSub, div#header,  #header > a{     border: none; background:transparent; color: transparent;}
+html{ filter:grayscale(0);}
+
+
+div.url.box{ background-image: url( https://mvc.squarewave.cloud/cat.png );
+font-size: 0px;
+width: 85px;
+height: 28px;}
+
+div.url.box:hover::after{
+content: "counter by utf-16";
+font-size:11px;
+    position: absolute;
+    margin-left: 91px;
+    margin-top: 14px;
+}
+#container > div.topRight > div.box.fwiends > div.rightHead, #container > div.topRight > div.box.blurbs > div.rightHead{ display: none;}
+@keyframes bg_ani{
+0%   {
+    background-position: 0px 0px;
+    
+}
+100% {
+    background-position: 0px 118px;}
+}
+
+html{ animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: bg_ani;
+filter: invert(0);}
+html{ filter: grayscale(1);}
+
+td.tableRight, td.tableLeft{ background-color: black;}
+; }
+div#header, div#hSub { height: 0px; padding: 0px; } 
+#container > div.topLeft > table > tbody > tr > td:nth-child(1)::after{ background-image: url(https://images.squarespace-cdn.com/content/v1/559dbbb5e4b064657baefaaf/1445280373888-ML9R592NVFSGF1SKJG3J/ke17ZwdGBToddI8pDm48kMHelQ3d7gJkZZDyU_2hmKpZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpywiktmH18ITtQSqUL_2iyRxmIBrWVQMQqeJkGfLJDABlqxcXU6Ai2jbmRCMh6nU6s/844-2012-david-choe-koreans-gone-bad-011.jpg);
+content: "";}
