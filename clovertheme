@@ -1,0 +1,241 @@
+/* nothing stolen from the other 4chan pages i made this myself */
+
+html {
+    background: #ffe;
+}
+html {
+    color: #000;
+}
+html {
+    background: linear-gradient(#fed6ae, #ffffee 200px);
+}
+body {
+    text-align: center;
+    background: transparent;
+    padding: 0px; margin-top: 20px;
+    color: maroon;
+}
+
+div#header, div#hSub{background: transparent; text-align: right; color: transparent; font-size:9pt; position: absolute;}
+div#header { position: initial; top: auto; border: none; padding: 0px; margin: 0px;}
+div#hSub{top: 0%; z-index: auto;}
+img[src="https://i.ibb.co/64pNhry/4chanbackgorunf.jpg"]{filter: invert(1);}
+
+
+#hSub > a, div#hSub a[href*="blog"] {  color: maroon;
+}
+#hSub > a::before, div#hSub a[href*="blog"]::before{ content: "[";  color: #b86;}
+#hSub > a::after, div#hSub a[href*="blog"]::after{ content: "]";  color: #b86;}
+
+#top > a > div > img { display:none;}
+#top  { position: absolute; top: 0%; left:0%;}
+
+#top > a > div { padding:3px;}
+#top > a > div > b:not(#top > a:nth-child(8) > div > b)::after{ content: " / "; color: #b86;}
+#top > a > div > b, #top > a > div { width: fit-content;}
+#top, #top > a > div > b { color: maroon; font-size: 12px; text-transform: lowercase; font-weight: 300;}
+#top::before{ content: "["; color: #b86;}
+#top::after{ content: "]"; color: #b86;}
+
+
+/* ---------------- YUNG GOOK --------------------- */
+#container{ max-width: 100%;}
+.topLeft, .topRight{ float: none; width: auto;padding: 0px;   }
+.topLeft{    transform: translate(0px, -4px);}
+a.logo{ font-size: 0px; }
+a.logo::after{ content:""; background-image: url(https://i.lensdump.com/i/IAR4oz.png); background-size: 300px 100px; width: 300px; height: 100px; display: inline-block; content: "";    border: 1px solid #800;
+    margin: 5px auto;}
+span#hUp{position:absolute;}
+h2#name.uName{font-size:0px;     margin-bottom: 5px !important;
+    padding-bottom: 7px;
+    font-size: 0px;
+    border-bottom: 1px solid #d9bfb7;     max-width: 90%; margin: auto;}
+h2#name.uName::after{content: "/?id=3947/ - Yung Gook"; font-family: Tahoma,sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-top: 0;
+
+color: maroon;}
+#container > div.topLeft > table{position: absolute;left: 0%; } 
+#container > div.topLeft > div.boxInfo.box { position: absolute; right: 0%;}
+#container > div.topLeft > div.player.box, #container > div.topLeft > div:nth-child(6) { position: fixed; left: 16rem; width: auto; bottom: -43rem; margin: 0%;}
+#container > div.topLeft > div.url.box { position: absolute; right: 0%; bottom: 0%;}
+
+.extended, h3{ border:0px;margin:0px;}
+.extended{    transform: translate(0px, -4px);}
+h3  {     font-size: 22px;
+    font-weight: 700;
+    color: #00e;
+    width: fit-content;
+    margin: auto;}
+h3:hover,#container > div.topRight > div.box.blurbs > div.blogs > div > a:hover { color: red;}
+h3::before{ content:"["; color: maroon; }
+h3::after{ content:"]"; color: maroon; }
+.blog, .blogs{ width:468px; margin: auto;border-top: 1px solid #d9bfb7;     margin-top: 8px;
+    padding-top: 6px; transform: translate(0px, -4px);}
+#container > div.topRight > div.box.blurbs > div.blogs > div:nth-child(1) { display: none;}
+#container > div.topRight > div.box.blurbs > div.blogs > div {vertical-align: top;font-size: 11px; margin-bottom: 1px;text-align:left; padding-left: 3px;}
+#container > div.topRight > div.box.blurbs > div.blogs > div > a{color:#00e;}
+#container > div.topRight > div.box.blurbs > div.rightHead{
+    background: transparent;
+    color: #cc6633;
+    padding-left: 0px;
+    border-bottom: 1px solid #d9bfb7;
+    width: 468px;
+    margin: auto;
+    height:17px;
+    font-size: 0px;
+}
+div#hSub a[href*="random"]{    position: absolute;
+    left: 48.214%;
+    top: 30.5rem;
+    font-size: 0px;
+    margin: -200px;}
+div#hSub a[href*="random"]::after{background-image: url(https://i1.lensdump.com/i/IAETaP.png);     background-size: 468px 60px;
+    width: 468px;
+    height: 60px;
+    display: inline-block; font-size: 0px;}
+h4{margin:5px;}
+
+#container > div.topRight > div.box.fwiends > div.rightHead{    background: transparent;
+    color: #cc6633;
+    padding-left: 0px;
+    border-top: 1px solid #d9bfb7;
+    width: 100%;
+    margin: auto;
+    height:17px;
+    font-size: 0px;}
+  #container > div.topLeft > div.url.box{    filter: blur(24px);}
+ #container > div.topLeft > div.url.box:hover{filter:none;}
+
+
+#viewFriends{background: transparent;
+    color: #cc6633;
+    padding-left: 0px;
+    border-top: 1px solid #d9bfb7;
+    width: 100%;
+    margin: auto;
+    height:17px;
+    font-size: 0px;}
+
+
+#userWall > tbody > tr{    background-color: #f0e0d6;
+    border: 1px solid #d9bfb7;
+    border-left: none;
+    border-top: none;
+    display: table;
+    /* padding: 2px; */
+    border-bottom: 4px solid #ffffee;
+        text-align: left;
+margin-left: 15px;
+}
+
+.tableLeft img {
+    max-width: 125px;
+    max-height: 125px;
+    image-orientation: from-image;}
+.tableLeft, .tableRight{ background: transparent;}
+.tableLeft > a > div {
+    overflow: hidden;
+    max-width: 115px;
+    text-align: left;
+}
+.tableLeft > a > div {
+    color: #117743;
+    font-weight: 700;
+}
+#userWall > tbody > tr > td.tableRight > div > p{margin-top:13px;}
+#userWall > tbody > tr::before, div.player.box::before{ content: ">>";
+    color: #e0bfb7;
+    float: left;
+    margin-right: 2px;
+    margin-top: 0;
+    margin-left: 2px;
+position:fixed; transform:translateX(-22px);}
+
+
+tbody {     transform:  translateY(20rem);}
+#container > div.topLeft > table > tbody { transform:  translate(13px, 28rem);}
+td.shortRight{     text-align: left;
+    padding-top: 0px;
+    float: left; margin-top: 25px;}
+form{text-align:center; transform: translateX(47px);}
+form::before{     background-color: #ea8;
+    color: #800;
+    font-weight: 700;
+    border: 1px solid #800;
+    padding: 0 5px;
+    font-size: 10pt;
+    content: "Comment";
+    display: inline-block;
+    height: 43px;
+    width: 98px;
+    position: absolute;
+    transform: translate(-112px, 11px);
+    padding-top: 8%;
+text-align: center;}
+textarea#commentInput {
+    width: 292px;
+    height: 66px;
+    resize: horizontal;
+}
+div.boxHead{     background: transparent;
+    color: #cc6633;
+    padding-left: 0px;
+    border-top: 1px solid #d9bfb7;
+    width: 100%;
+    margin: auto;
+    height: 17px;
+    font-size: 0px;}
+
+div.player.box{     background-color: #f0e0d6;
+    border: 1px solid #d9bfb7;
+    border-left: none;
+    border-top: none;
+    display: table;
+    /* padding: 2px; */
+    text-align: left;
+    margin-left: 15px;
+color: maroon;}
+
+
+
+
+/* ---------- */
+
+
+div.boxInfo.box > a >  #sMsg, #block, #report, #add { background-image :none; width: auto; height: auto; font-size: 1em;}
+div.boxInfo.box  { position: absolute;     left: 15rem;
+    top: 29rem; border: none; width: fit-content; color: 00e;     font-size: 0.8em !important;
+    display: inline;
+    padding: 0;
+    padding-left: 5px; text-transform: lowercase; font-size: small;}
+div.boxInfo.box > a > div { padding:0px;}
+//div.boxInfo.box > a > div > b:not(#top > a:nth-child(8) > div > b)::after{ content: " / "; color: #b86;}
+div.boxInfo.box > a > div > b, #top > a > div { width: fit-content;}
+#sMsg::before, #block::before, #report::before, #add::before{ content: ">>"; color: inherit;}
+#sMsg:hover, #block:hover, #report:hover, #add:hover{ color: red;}
+div.boxInfo.box > div.boxHead { display: none;}
+
+div.url.box{ background-image: url( https://mvc.squarewave.cloud/cat.png );
+font-size: 0px;
+width: 85px;
+height: 28px;}
+
+div.url.box:hover::after{
+content: "counter by utf-16";
+font-size:11px;
+    position: absolute;
+    margin-left: 91px;
+    margin-top: 14px;
+}
+form{     left: 41.15%; position: absolute;}
+#container > div.topRight > div.box.comments > div.boxHead{ margin-top: 112px;}
+/* fixing blogs */
+
+.blogCard .avatar {
+display: none;
+}
+body.blogBody > div#container > div#hSub > a[href*="random"] { display: none; }
+body.blogBody > div#container > div.topRight.blogPost > div.blogs > div > div.box.comments > table#userWall > tbody {transform: translate(0px, 0px);}
