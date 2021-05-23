@@ -1,0 +1,128 @@
+body{
+background: #1d1f21 none;
+    color: #c5c8c6;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 10pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#avatar, #container > div.topLeft > table > tbody > tr > td:nth-child(1){display: none;}
+.boxButton {color: slategrey;}
+div.boxInfo.box > a >  #sMsg, #block, #report, #add { background-image :none; width: auto; height: auto; font-size: 1em;}
+
+div.boxInfo.box > a > div { padding:0px;}
+//div.boxInfo.box > a > div > b:not(#top > a:nth-child(8) > div > b)::after{ content: " / "; color: #b86;}
+div.boxInfo.box > a > div > b, #top > a > div { width: fit-content;}
+#sMsg::before, #block::before, #report::before, #add::before{ content: ">>"; color: inherit;}
+#sMsg:hover, #block:hover, #report:hover, #add:hover{ color: red;}
+div.boxInfo.box > div.boxHead { display: none;}
+
+div.url.box{ background-image: url(https://mvc.penguins.win/cat.png);
+font-size: 0px;
+width: 85px;
+height: 28px;}
+
+div.url.box:hover::after{
+content: "counter by utf-16";
+font-size:11px;
+    position: absolute;
+    margin-left: 91px;
+    margin-top: 14px;
+}
+div#header, div#hSub{background: transparent; text-align: right; color: transparent; font-size:9pt; position: absolute;}
+div#header { position: initial; top: auto; border: none; padding: 0px; margin: 0px;}
+div#hSub{top: 0%; z-index: auto;}
+/* ------- notification symbols ------ */ 
+
+div#header span.blinkGreen { font-size:0px;}
+div#header span.blinkGreen::after {     content: " Ⓕ ";
+    font-size: 14px;
+    text-shadow: 0px 1px 3px black;
+    -webkit-font-smoothing: antialiased; }
+
+div#header span.blinkRed { font-size:0px;}
+div#header span.blinkRed::after {     content: " Ⓜ ";
+    font-size: 14px;
+    text-shadow: 0px 1px 3px black;
+    -webkit-font-smoothing: antialiased; }
+
+div#header span.blinkViolet { font-size:0px;}
+div#header span.blinkViolet::after {     content: " Ⓒ ";
+    font-size: 14px;
+    text-shadow: 0px 1px 3px black;
+    -webkit-font-smoothing: antialiased; }
+
+div#header a.blinkYellow { font-size:0px;}
+div#header a.blinkYellow::after {     content: " Ⓝ ";
+    font-size: 14px;
+    text-shadow: 0px 1px 3px black;
+    -webkit-font-smoothing: antialiased; }
+
+
+div#header, div#hSub, .rightHead, .boxHead, table#userWall, td.tableRight, td.tableLeft, div.box.comments, textarea#commentInput, .extended.box, div.player.box, .boxInfo, .blog{
+    background: #f3ead342;
+    color: snow !important;
+    border-radius: 12px;
+
+}
+div#hSub:hover{ background-image:url(https://1.bp.blogspot.com/-6tFMh8gOgEY/XzdLCQ63MoI/AAAAAAAArcM/xW64zIPxDFg9jNvuf756WrbGZw1qLu46QCLcBGAsYHQ/s1600/The%2BBeatles.gif); background-size: 80px ;}
+
+
+
+
+#top > a > div > img { display:none;}
+#top  { position: absolute; top: 0%; left:0%;}
+
+#top > a > div { padding:3px;}
+#top > a > div > b:not(#top > a:nth-child(8) > div > b)::after{ content: " / "; color: white;}
+#top > a > div > b, #top > a > div { width: fit-content;}
+#top, #top > a > div > b { color: white; font-size: 12px; text-transform: lowercase; font-weight: 300;}
+#top::before{ content: "["; color: white;}
+#top::after{ content: "]"; color: white;}
+
+div.blogs{
+    position: absolute;
+    height: 100px;
+    width: 294px;
+    position: absolute;
+    right: 50%;
+    margin-right: 203px;
+    top: 50%;
+    margin-top: 25px;
+}
+div.boxInfo.box{
+    position: absolute;
+    margin-left: 0rem;
+    margin-top: 21rem;
+    border: none;
+    background: none;
+    color: 00e;
+    font-size: 0.8em !important;
+    display: inline;
+    padding: 0;
+    padding-left: 5px;
+    text-transform: lowercase;
+    font-size: small;
+    width: 16rem;}
+ div.extended.box {    margin-left: 0rem;
+    margin-top: 21rem;
+    border: none;
+    background: none;
+    color: 00e;
+    font-size: 0.8em !important;
+    display: inline;
+    padding: 0;
+    padding-left: 5px;
+    text-transform: lowercase;
+    font-size: small;
+    width: 16rem;}
+div.extended.box > a > h3 { 
+color: #5f89ac!important;}
+#name{font-weight:100;font-size:-webkit-xxx-large;}
+#name:hover{background-image: url(https://media.giphy.com/media/xT0GqpRWUoYlUSQpaM/giphy.gif);
+    color: transparent!important;
+    background-position-y: -97px;}
+#container > div.topLeft > table > tbody > tr > td.shortRight > div:nth-child(1){color: grey; font-weight: 50;}
